@@ -1,0 +1,36 @@
+{
+  "input_dim": 31,
+  "latent_dim": 16,
+  "num_classes": 7,
+  "numerical_cols": [
+    "Age",
+    "Height",
+    "Weight",
+    "FCVC",
+    "NCP",
+    "CH2O",
+    "FAF",
+    "TUE"
+  ],
+  "categorical_cols": [
+    "Gender",
+    "family_history_with_overweight",
+    "FAVC",
+    "CAEC",
+    "SMOKE",
+    "SCC",
+    "CALC",
+    "MTRANS"
+  ],
+  "class_names": [
+    "Insufficient_Weight",
+    "Normal_Weight",
+    "Obesity_Type_I",
+    "Obesity_Type_II",
+    "Obesity_Type_III",
+    "Overweight_Level_I",
+    "Overweight_Level_II"
+  ],
+  "test_accuracy": 0.9274447949526814,
+  "best_val_loss": 0.26604810100906656
+}
