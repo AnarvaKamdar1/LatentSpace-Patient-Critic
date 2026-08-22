@@ -1,0 +1,14 @@
+Run this command to create environment:
+python -m venv myenv
+
+Run this command to activate environment:
+cd myenv/Scripts
+activate
+
+Run this command to download specific dependencies:
+
+pip install -r requirements.txt --index-url https://download.pytorch.org/whl/cpu --extra-index-url https://pypi.org/simple
+
+Run this command to run app:
+streamlit run app.py
+

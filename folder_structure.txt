@@ -1,0 +1,29 @@
+Main Project Folder
+|
+|---- requirements.txt
+|---- folder_structure.txt (this file)
+|---- commands.txt
+|
+|---- myenv
+|       |
+|       |---- Scripts (activate)
+|       |----(other)
+|       ...
+|
+|---- project
+|       |
+|       |---- artifacts
+|       |         |
+|       |         |---- best_encoder_decoder_model.pth
+|       |         |---- preprocessing_pipeline.joblib
+|       |         |---- label_encoder.joblib
+|       |         |---- config.json
+|       |         |---- latent_patient_profiles_pool.csv
+|       |         |---- latent_vectors_pool.npy
+|       |
+|       |---- training
+|       |         |---- train_encoder_decoder.ipynb (original notebook)
+|       |         |---- encoder_decoder.py (original notebook's python script version)
+|       |---- app.py
+
+
