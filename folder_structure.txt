@@ -1,0 +1,49 @@
+Main Project Folder
+|
+|---- requirements.txt (dependencies)
+|---- folder_structure.txt (this file)
+|---- commands.txt (help on how to run the project)
+|
+|---- myenv(not included)
+|       |
+|       |---- Scripts -> (activate)
+|       |----(other)
+|       ...
+|
+|---- project
+|       |
+|       |---- app.py
+|       |
+|       |---- artifacts
+|       |         |
+|       |         |---- best_encoder_decoder_model.pth
+|       |         |---- preprocessing_pipeline.joblib
+|       |         |---- label_encoder.joblib
+|       |         |---- config.json
+|       |         |---- latent_patient_profiles_pool.csv
+|       |         |---- latent_vectors_pool.npy
+|       |
+|       |---- training
+|       |         |---- train_encoder_decoder.ipynb (original notebook)
+|       |         |---- encoder_decoder.py (original notebook's python script version)
+|       |
+|       |---- utils
+|       |         |---- __pycache__(not included)
+|       |         |---- __init__.py
+|       |         |---- auth.py
+|       |         |---- constants.py
+|       |         |---- critic.py
+|       |         |---- feature_shap.py
+|       |         |---- inference.py
+|       |         |---- model_def.py
+|       |         |---- preprocessing.py
+|       |         |---- similarity.py
+|       |
+|       |---- config
+|       |         |---- demo_users.txt (demo accounts)
+|       |         |---- users.json (hashed demo passwords)
+|
+|---- results (contains all results as pdfs)
+
+
+
