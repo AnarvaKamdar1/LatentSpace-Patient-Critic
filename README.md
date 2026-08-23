@@ -75,6 +75,13 @@ Pre-generated result PDFs are available in the `results/` folder, showcasing pre
 
 ---
 
+## How to run?
+
+Check [working.md](working.md) to run the project.
+
+Additionally, check [methodology.md](methodology.md) to understand about the terminologies and techniques in detail.
+
+
 ## Disclaimer
 
 > The predictions are based on specific training data and can be incorrect. This app is aimed to help clinicians and assist them, not replace them. Regardless of the outcome, it is always advised to consult a doctor.
