@@ -2,8 +2,6 @@
   <h1 align="center">Clinical Counterfactual Risk Explorer</h1>
 </p>
 
----
-
 ## Description
 
 The Clinical Counterfactual Risk Explorer is a clinical decision-support tool designed for interpretable obesity-level prediction. It utilizes a custom Encoder-Decoder-Classifier neural network to classify a patient's obesity level while simultaneously learning a structured latent representation. This latent space enables the retrieval of clinically similar patients and the identification of "healthier prototypes"—real patient profiles that are one severity step closer to normal weight. By comparing a patient to their healthier prototype, the system generates actionable counterfactual recommendations, indicating the specific lifestyle changes required to achieve a healthier profile.
