@@ -13,7 +13,7 @@ The Clinical Counterfactual Risk Explorer is a clinical decision-support tool de
 | Feature | Description |
 |---|---|
 | **Encoder-Decoder-Classifier** | A joint autoencoder and classification model that learns a compact 16-dimensional latent representation of patient health metrics. |
-| **Latent-Space kNN** | Retrieves the five most comparable patient profiles utilizing Euclidean distance within the learned latent space. |
+| **Latent-Space kNN** | Retrieves the five most comparable patient profiles using Euclidean distance within the learned latent space. |
 | **Constrained Counterfactual Search** | Performs a demographic-matched search to identify patients positioned one severity class healthier. |
 | **Critic Analysis** | Computes actionable feature shifts required to transition a patient profile toward a healthier prototype. |
 | **SHAP Explainability** | Provides model-agnostic feature attribution to elucidate the primary factors driving the classification. |
