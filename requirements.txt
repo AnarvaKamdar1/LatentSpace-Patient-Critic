@@ -8,3 +8,4 @@ imbalanced-learn==0.14.2
 joblib==1.5.3
 ucimlrepo==0.0.7
 streamlit
+shap
